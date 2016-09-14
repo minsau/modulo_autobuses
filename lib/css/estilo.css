@@ -1,0 +1,229 @@
+html, body{
+
+//width: 100%;
+margin: 0;
+position: 0;
+font-size: 16px;
+padding: 0;
+//background-color: black;
+    color: black;
+}
+
+body{
+width: 100%;
+    height: auto;
+overflow-y: auto;
+margin: 0;
+position: 0;
+font-size: 16px;
+}
+
+body{
+   background-color: #e6dede;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.encabezado_constituyente{
+ height: auto;
+ background-color: aquamarine;
+    
+}
+
+#logo_constituyente{
+ 
+    height: auto;
+
+}
+
+#fecha_constituyente{
+  
+    bottom: 0;
+    
+    
+}
+
+
+.cabecera_constituyente{
+ border:1px solid black;
+ 
+}
+
+.buscador_constituyente{
+      padding: 10px;
+    
+   
+}
+
+.migas_pan{
+      padding: 10px;
+         border:1px solid black;
+  
+    
+}
+
+#redes_sociales{
+      padding: 10px;
+   // background-color: firebrick;
+}
+
+.menu_dinamico{
+    padding: 10px;
+   // background-color: #0cefef;
+    border:1px solid black;
+    
+}
+
+.menu_izquierdo .ul li{
+ 
+    list-style: none;
+    text-decoration: none;
+    border: solid 1px black;
+    text-align: ,left;
+    padding: 5px;
+    
+}
+
+.menu_izquierdo .ul li a span{
+    font-size: 30px;
+    
+    
+    
+}
+
+
+
+.menu_izquierdo .ul li a{
+    list-style: none;
+    text-decoration: none;
+      color: black;
+    font-size: 1em;
+}
+
+
+.botones_derecho button{
+    padding: 10px;
+    
+}
+
+
+.menu_derecho{
+    margin-top: 10px;
+    
+    
+}
+
+
+.menu_derecho .ul{
+    padding: 10px;
+    text-align: center;
+    background-color: rebeccapurple;
+      border: 1px solid black;
+    list-style: none;
+    
+}
+
+
+.menu_derecho .ul li {
+   padding: 10px;
+    border: 1px solid black;
+  
+    
+}
+
+.botones_derecho .iconos a span{
+    
+    font-size: 30px;
+    
+}
+
+.derecho{
+    margin-top: 15px;
+    
+}
+
+
+.espacio_iinpa{
+
+     border: 1px solid black;
+    
+} 
+
+
+
+
+.carrusel_constituyente{
+  height: 434px;
+    background-color: #7fb1b1;
+        border: 1px solid black;
+}
+
+.imagenes_carrusel{
+height: 100px;
+background-color: brown;
+border: 1px solid black;
+    
+}
+
+.mesas-tematicas{
+    background-color: cadetblue;
+    margin: 0 auto; 
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.partidos_politicos{
+background-color: cadetblue;
+
+    
+}
+
+.partido_const{
+    border: 1px solid black;
+  
+    
+}
+
+.footer{
+    
+    
+}
+
+
+
+
+.menu_movil_constituyente{
+    
+    
+    
+}
+
+
+
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('../img/carousel4/a03.png') no-repeat;
+    overflow: hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03l.jssora03ldn { background-position: -243px -33px; }
+.jssora03r.jssora03rdn { background-position: -303px -33px; }
