@@ -117,7 +117,7 @@ function addInteraccion($path,$bus,$emisor,$receptor,$tipo){
 
 function getTripulantes($path,$bus,$id){
   require_once($path."baseDatos/conexion.php");
-  $sql = "SELECT a.autobus,b.id,b.nombre,b.aPaterno,b.aMaterno,a.estado,a.tipo FROM Interaccion as a, Usuario as b WHERE a.autobus = '$bus' and  (a.userEmisor = b.id or a.userReceptor=b.id) and b.id != '$id'";
+  $sql = "SELECT a.id as inte,a.autobus,b.id,b.nombre,b.aPaterno,b.aMaterno,a.estado,a.tipo FROM Interaccion as a, Usuario as b WHERE a.autobus = '$bus' and  (a.userEmisor = b.id or a.userReceptor=b.id) and b.id != '$id'";
   $res = mysqli_query($conexion, $sql) or die ("error al consultar "+mysqli_error($conexion));
   $data = [];
 

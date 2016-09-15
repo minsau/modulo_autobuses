@@ -90,6 +90,7 @@ $path = 'lib/';
                 <th>Solicitante</th>
                 <th>Autobus</th>
                 <th></th>
+                <th> </th>
               </thead>
               <tr ng-repeat="person in solicitudesDatos">
                 <td>
@@ -98,6 +99,7 @@ $path = 'lib/';
                 <td>{{person.nombre+" "+person.aPaterno+" "+person.aMaterno}}</td>
                 <td>{{person.autobus}} </td>
                 <td><button type="button" ng-click="cambiarEstado(person.inte,'Aceptado')"class="btn btn-sm btn-default" name="button">Aceptar</button></td>
+                <td><button type="button" ng-click="cambiarEstado(person.inte,'Rechazado')"class="btn btn-sm btn-danger" name="button">Rechazar</button></td>
               </tr>
             </table>
           </div>
@@ -134,6 +136,7 @@ $path = 'lib/';
                 <td>{{person.nombre+" "+person.aPaterno+" "+person.aMaterno}}</td>
                 <td>{{person.autobus}} </td>
                 <td><button type="button" ng-click="cambiarEstado(person.inte,'Aceptado')"class="btn btn-sm btn-default" name="button">Aceptar</button></td>
+                <td><button type="button" ng-click="cambiarEstado(person.inte,'Rechazado')"class="btn btn-sm btn-danger" name="button">Rechazar</button></td>
               </tr>
             </table>
           </div>
@@ -200,7 +203,7 @@ $path = 'lib/';
             <th>#</th>
             <th>Nombre</th>
             <th>Estado</th>
-
+            <th> </th>
           </thead>
           <tr ng-repeat="p in personasBus" ng-if="p.estado  == 'Aceptado'">
             <td>
@@ -208,6 +211,7 @@ $path = 'lib/';
             </td>
             <td>{{p.nombre+" "+p.aPaterno+" "+a.Materno}} </td>
             <td>{{p.estado}} </td>
+            <td><button type="button" ng-click="cambiarEstado(p.inte,'Eliminado')"class="btn btn-sm btn-danger" name="button">Eliminar</button></td>
           </tr>
         </table>
 
